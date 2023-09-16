@@ -27,5 +27,5 @@ function success() {
   alert("Pendaftaran Berhasil");
 }
 function thanks() {
-  alert("Terimkasih atas masukkan anda");
+  alert("Terimakasih atas masukkan anda");
 }
