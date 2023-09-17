@@ -6,7 +6,7 @@
   opacity: 0.9;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 320px) {
   #home,
   #pendaftaran {
     padding-top: 15vh;
@@ -33,7 +33,7 @@
     margin-top: -10vh;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 801px) {
   #home {
     padding-top: 23vh;
   }
