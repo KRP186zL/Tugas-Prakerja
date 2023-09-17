@@ -6,11 +6,13 @@
   opacity: 0.9;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 370px) {
   #home,
-  #pendaftaran,
-  #kontak {
+  #pendaftaran {
     padding-top: 15vh;
+  }
+  #kontak {
+    padding-top: 12vh;
   }
   #daftar {
     padding-top: 18.5vh;
