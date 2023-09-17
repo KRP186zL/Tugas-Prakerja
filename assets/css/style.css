@@ -12,9 +12,6 @@
 }
 
 @media (min-width: 320px) {
-  .logo {
-    width: 70px;
-  }
   #home,
   #pendaftaran {
     padding-top: 15vh;
@@ -42,9 +39,6 @@
   }
 }
 @media (min-width: 801px) {
-  .logo {
-    width: 130px;
-  }
   #home {
     padding-top: 23vh;
   }
