@@ -5,3 +5,58 @@
   margin-bottom: 10px;
   opacity: 0.9;
 }
+
+@media screen and (min-width: 400px) {
+  #home,
+  #pendaftaran,
+  #kontak {
+    padding-top: 15vh;
+  }
+  #daftar {
+    padding-top: 18.5vh;
+  }
+  #pendaftaran {
+    margin-top: -11vh;
+    padding-bottom: 5vh;
+  }
+  #footer {
+    margin-top: 5vh;
+  }
+
+  #daftar {
+    margin-top: -10vh;
+  }
+
+  #kontak {
+    margin-top: -10vh;
+  }
+}
+@media screen and (min-width: 800px) {
+  #home {
+    padding-top: 23vh;
+  }
+  #daftar,
+  #pendaftaran {
+    padding: 20vh 0 5vh 0;
+  }
+  #kontak {
+    padding-top: 17vh;
+  }
+  #kontak h2 {
+    padding-bottom: 5vh;
+  }
+  #pendaftaran {
+    padding-bottom: 23vh;
+  }
+  #footer {
+    margin-top: 24vh;
+  }
+
+  #daftar {
+    margin-top: 0;
+  }
+
+  #kontak {
+    margin-top: -40vh;
+  }
+}
