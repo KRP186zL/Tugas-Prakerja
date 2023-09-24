@@ -188,16 +188,26 @@
           <div class="form-popup" id="myForm">
             <form
               class="form-container mx-auto p-2 rounded-1"
-              style="width: 59%"
+              style="width: 60%"
             >
               <h2 class="text-center">Pendaftaran</h2>
               <div class="mb-3">
                 <label for="InputName" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" required />
+                <input
+                  id="InputName"
+                  type="text"
+                  class="form-control"
+                  required
+                />
               </div>
               <div class="mb-3">
                 <label for="InputAddress" class="form-label">Alamat</label>
-                <input type="text" class="form-control" required />
+                <input
+                  id="InputAddress"
+                  type="text"
+                  class="form-control"
+                  required
+                />
               </div>
 
               <div class="mb-3">
@@ -227,14 +237,7 @@
                 ></textarea>
               </div>
 
-              <a
-                type="submit"
-                class="btn btn-success"
-                onclick="success(); closeForm()"
-                href="#daftar"
-              >
-                Daftar
-              </a>
+              <a type="submit" class="btn btn-success"> Daftar </a>
               <a
                 type="button"
                 class="btn btn-danger"
@@ -247,7 +250,7 @@
           </div>
         </div>
       </section>
-      <section id="kontak" class="mx-auto" style="width: 59%">
+      <section id="kontak" class="mx-auto" style="width: 60%">
         <div class="rounded-1 p-2">
           <h2 class="h1-responsive font-weight-bold text-center my-4">
             Contact us
@@ -265,14 +268,26 @@
                   <div class="col-md-12">
                     <div class="md-form mb-0">
                       <label for="name" class="">Nama</label>
-                      <input type="text" name="name" class="form-control" />
+                      <input
+                        id="name"
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        required
+                      />
                     </div>
                   </div>
 
                   <div class="col-md-12">
                     <div class="md-form mb-0">
                       <label for="email" class="">Email</label>
-                      <input type="text" name="email" class="form-control" />
+                      <input
+                        id="email"
+                        type="text"
+                        name="email"
+                        class="form-control"
+                        required
+                      />
                     </div>
                   </div>
                 </div>
@@ -281,7 +296,13 @@
                   <div class="col-md-12">
                     <div class="md-form mb-0">
                       <label for="subject" class="">Subject</label>
-                      <input type="text" name="subject" class="form-control" />
+                      <input
+                        id="subject"
+                        type="text"
+                        name="subject"
+                        class="form-control"
+                        required
+                      />
                     </div>
                   </div>
                 </div>
@@ -291,10 +312,12 @@
                     <div class="md-form">
                       <label for="pesan">Pesan</label>
                       <textarea
+                        id="pesan"
                         type="text"
                         name="pesan"
                         rows="2"
                         class="form-control md-textarea"
+                        required
                       ></textarea>
                     </div>
                   </div>
@@ -302,7 +325,13 @@
               </form>
 
               <div class="text-center text-md-left">
-                <a class="btn btn-dark mt-5" onclick="thanks()">Kirim</a>
+                <button
+                  type="submit"
+                  class="btn btn-dark mt-5"
+                  onclick="thanks()"
+                >
+                  Kirim
+                </button>
               </div>
               <div class="status"></div>
             </div>
